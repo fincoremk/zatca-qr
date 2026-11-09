@@ -1,0 +1,15 @@
+{
+  "name": "@fincoremk/zatca-qr",
+  "version": "1.0.0",
+  "description": "Read and build the QR payload of Saudi (ZATCA) e-invoices — zero dependencies, Arabic-ready, works everywhere.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src", "README.md", "README.ar.md", "LICENSE"],
+  "scripts": { "test": "node --test test/*.test.js" },
+  "keywords": ["zatca", "fatoora", "e-invoice", "qr", "tlv", "saudi", "vat", "arabic"],
+  "author": "FINCOREMK (https://fincoremk.com)",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "homepage": "https://fincoremk.com/zatca-qr/"
+}
